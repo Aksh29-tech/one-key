@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: one-key-backend
+server:
+  port: 8081
+
+#Configurations
+#database configurations
+
+#email configurations
+
+#oauth2 configurations
+
