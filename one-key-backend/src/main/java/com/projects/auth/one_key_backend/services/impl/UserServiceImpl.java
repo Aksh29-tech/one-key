@@ -1,4 +1,4 @@
-package com.projects.auth.one_key_backend.services;
+package com.projects.auth.one_key_backend.services.impl;
 
 import com.projects.auth.one_key_backend.dtos.UserDto;
 import com.projects.auth.one_key_backend.entities.Provider;
@@ -6,6 +6,7 @@ import com.projects.auth.one_key_backend.entities.User;
 import com.projects.auth.one_key_backend.exceptions.ResourceNotFoundException;
 import com.projects.auth.one_key_backend.helpers.UserHelper;
 import com.projects.auth.one_key_backend.repositories.UserRepository;
+import com.projects.auth.one_key_backend.services.UserService;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
